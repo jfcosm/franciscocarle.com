@@ -4,6 +4,7 @@
       <h1>Francisco Carle</h1>
       <p>Senior Scrum Master & Web Developer</p>
     </header>
+    <!-- Aquí usamos los componentes registrados -->
     <AboutSection />
     <ExperienceSection />
     <SkillsSection />
@@ -24,3 +25,7 @@ export default {
   },
 };
 </script>
+
+<style>
+/* Puedes agregar estilos globales aquí */
+</style>
