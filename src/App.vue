@@ -1,31 +1,45 @@
 <template>
   <div id="app">
     <header>
-      <h1>Francisco Carle</h1>
-      <p>Senior Scrum Master & Web Developer</p>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre Mí</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
-    <!-- Aquí usamos los componentes registrados -->
-    <AboutSection />
-    <ExperienceSection />
-    <SkillsSection />
+    <main>
+      <HomeSection />
+      <AboutSection />
+      <SkillsSection />
+      <ProjectsSection />
+      <ContactSection />
+    </main>
   </div>
 </template>
 
 <script>
+import HomeSection from './components/HomeSection.vue';
 import AboutSection from './components/AboutSection.vue';
-import ExperienceSection from './components/ExperienceSection.vue';
 import SkillsSection from './components/SkillsSection.vue';
+import ProjectsSection from './components/ProjectsSection.vue';
+import ContactSection from './components/ContactSection.vue';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
+    HomeSection,
     AboutSection,
-    ExperienceSection,
     SkillsSection,
+    ProjectsSection,
+    ContactSection,
   },
 };
 </script>
 
 <style>
-/* Puedes agregar estilos globales aquí */
+/* Puedes agregar estilos globales aquí o mantener el archivo limpio para solo cargar estilos individuales por componente. */
 </style>
