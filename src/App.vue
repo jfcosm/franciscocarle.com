@@ -6,6 +6,7 @@
           <li><a href="#inicio">Inicio</a></li>
           <li><a href="#sobre-mi">Sobre Mí</a></li>
           <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
           <li><a href="#proyectos">Proyectos</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </ul>
@@ -15,6 +16,7 @@
       <HomeSection />
       <AboutSection />
       <SkillsSection />
+      <TestimonialsSection />
       <ProjectsSection />
       <ContactSection />
     </main>
@@ -25,6 +27,7 @@
 import HomeSection from './components/HomeSection.vue';
 import AboutSection from './components/AboutSection.vue';
 import SkillsSection from './components/SkillsSection.vue';
+import TestimonialsSection from './components/TestimonialsSection.vue';
 import ProjectsSection from './components/ProjectsSection.vue';
 import ContactSection from './components/ContactSection.vue';
 
@@ -34,6 +37,7 @@ export default {
     HomeSection,
     AboutSection,
     SkillsSection,
+    TestimonialsSection,
     ProjectsSection,
     ContactSection,
   },

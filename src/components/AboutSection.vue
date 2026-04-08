@@ -2,12 +2,13 @@
     <section id="sobre-mi" class="about-section">
       <h2>Sobre Mí</h2>
       <p>
-        Soy un profesional con experiencia en el desarrollo de software, metodologías ágiles y liderazgo de equipos.
-        Me apasiona crear soluciones tecnológicas innovadoras y colaborar con equipos diversos para alcanzar objetivos.
+        Soy un <strong>Desarrollador Full Stack, Agile Coach, Scrum Master y Experto en IA</strong> enfocado en crear puentes 
+        entre la tecnología avanzada y las personas. Me apasiona crear soluciones de software innovadoras, integrando
+        herramientas de inteligencia artificial para potenciar los flujos de trabajo tradicionales.
       </p>
       <p>
-        Cuento con una sólida formación en tecnología y un enfoque centrado en el cliente, lo que me permite ofrecer
-        productos y servicios de alta calidad.
+        Cuento con una sólida formación en metodologías ágiles, lo que me permite destrabar proyectos complejos
+        y liderar equipos multidisciplinarios hacia la entrega continua de valor construyendo productos de alta calidad.
       </p>
     </section>
   </template>
